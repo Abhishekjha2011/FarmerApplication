@@ -1,0 +1,268 @@
+<GridLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:columnCount="2"
+    android:padding="8dp">
+
+    <ImageView
+        android:id="@+id/productImage1"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/apple"
+        android:contentDescription="Product image" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingStart="8dp"
+        android:paddingLeft="8dp">
+
+        <TextView
+            android:id="@+id/productName1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Apple"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/productPrice1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="₹ 120"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/productImage2"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/banana"
+        android:contentDescription="Product image" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingStart="8dp"
+        android:paddingLeft="8dp">
+
+        <TextView
+            android:id="@+id/productName2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Banana"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/productPrice2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="₹ 60"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/productImage3"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/chilli"
+        android:contentDescription="Product image" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingStart="8dp"
+        android:paddingLeft="8dp">
+
+        <TextView
+            android:id="@+id/productName3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chilli"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/productPrice3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="₹ 10"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/productImage4"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/potato"
+        android:contentDescription="Product image" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingStart="8dp"
+        android:paddingLeft="8dp">
+
+        <TextView
+            android:id="@+id/productName4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Potato"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/productPrice4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="₹ 80"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/productImage5"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/onion"
+        android:contentDescription="Product image" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingStart="8dp"
+        android:paddingLeft="8dp">
+
+        <TextView
+            android:id="@+id/productName5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Onion"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/productPrice5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="₹ 120"
+            android:textSize="14sp" />
+    </LinearLayout>
+    <ImageView
+        android:id="@+id/productImage6"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/carrot"
+        android:contentDescription="Product image" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingStart="8dp"
+        android:paddingLeft="8dp">
+
+        <TextView
+            android:id="@+id/productName6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Carrot"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/productPrice6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="₹ 60"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/productImage7"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/grapes"
+        android:contentDescription="Product image" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingStart="8dp"
+        android:paddingLeft="8dp">
+
+        <TextView
+            android:id="@+id/productName7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Grapes"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/productPrice7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="₹ 50"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/productImage8"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/tomato"
+        android:contentDescription="Product image" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingStart="8dp"
+        android:paddingLeft="8dp">
+
+        <TextView
+            android:id="@+id/productName8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tomato"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/productPrice8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="₹ 40"
+            android:textSize="14sp" />
+    </LinearLayout>
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="2"
+        android:layout_rowSpan="2">
+        <Button
+            android:id="@+id/viewCartButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="View Cart"
+            android:layout_gravity="center"
+            android:layout_columnSpan="2"/>
+    </GridLayout>
+
+</GridLayout>
